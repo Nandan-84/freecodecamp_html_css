@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Survey_Form_Val.css">
+    <meta charset="utf-8">
+    <title>Valorant Competitive Feedback 2024</title>
+    </head>
+    <body>
+      <h1 id="title"> VALORANT SURVEY 2024</h1> 
+      <p id="description">Thank you for playing Valorant!<br>
+Please take a moment to share your thoughts in the survey below. We're working hard to craft the best experience, and can't do it without your help and feedback! 😊We want as much feedback from you as possible and please don't hesitate to be harsh and straightforward in your answers -- that's what's going to help us get better!<br>
+By submitting this form, you consent to Riot Games collection and use of your information in accordance with their respective privacy policy.<br>
+
+For more information, please visit:<a href="https://www.riotgames.com/en/privacy-notice"> Riot games Privacy policy</a></p>
+<form id="survey-form">
+<fieldset>
+        <label id="name-label" for="name-label">*Enter your Riot ID: <input type="text" name="riot-id" id="name" minlength="3" maxlength="16" placeholder="Ex. Apacs#8448" required></label>
+        <label id="email-label" for="email-label">Enter your registered mail*: <input type="email" name="riot-mail" id="email" placeholder="abcd@xyz.com" required></label>
+        <label id="number-label" for="number-label">*Enter your age (years): <input type="number" name="age" min="13" max="100" id="number" placeholder="(13+)" required></label>
+        <label for="rank">*Whats your current Act rank?
+          <select id="dropdown" name="curr-rank">
+            <option value="">(select here)</option>
+            <option value="1">Iron</option>
+            <option value="2">Bronze</option>
+            <option value="3">Silver</option>
+            <option value="4">Gold</option>
+            <option value="5">Platinum</option>
+            <option value="6">Ascendant</option>
+            <option value="7">Immortal/Radiant</option>
+            </select>
+            </label>
+            </fieldset>
+            <fieldset>
+              <legend>*Have you PLAYED VALORANT in the last TWO WEEKS?</legend>
+                <label for="played"><input type="radio" name="duration" class="inline" checked id="played" value="1"> Yes</label>
+                <label for="notplayed"><input type="radio" name="duration" class="inline" id="notplayed" value="2"> No</label>
+                <label for="never"><input type="radio" name="duration" class="inline" id="never" value="3"> I have never played Valorant</label> 
+</fieldset>
+<fieldset>
+  <label for="rate">Which of the following video games have you played in the last 2 weeks? Select as many as are relevant.<br>
+    <input type="checkbox" value="1">Fortnite<br>
+    <input type="checkbox" value="2">The Finals<br>
+    <input type="checkbox" value="3">CSGO 2<br>
+    <input type="checkbox" value="4">Call of Duty: Warzone<br>
+    <input type="checkbox" value="5">PUBG<br>
+    </label>
+    </fieldset>
+    <fieldset>
+      <label for="feedback">Please provide your feedback: <textarea id="feedback" name="review" rows="3" cols="30" placeholder="I suck at this game lol!"></textarea></label>
+      <input type="submit" value="Submit" id="submit" />
+</form>
+</body>
+</html>
