@@ -1,5 +1,5 @@
-# freecodecamp_html_css
-This repository houses the completed projects from the freeCodeCamp HTML &amp; CSS course. Each project demonstrates practical application of HTML and CSS concepts
+# FreeCodeCamp_HTML_CSS
+This repository houses the completed projects from the freeCodeCamp HTML and CSS course. Each project demonstrates practical application of HTML and CSS concepts
 including:
 
 HTML STRUCTURE: Creating well-organized and semantic web pages using HTML elements.
@@ -21,6 +21,8 @@ Project 3: Learning CSS Colors by Building a Set of Colored Markers.
 
 Project 4: Learning HTML Forms by Building a Regestration Form.
 
-Project 5: Building a Survey Form to collect data from users.
-
 Project 6: Learning CSS Box Model by Building a Rothko Painting. 
+
+CERTIFICATION PROJECTS INCLUDE;
+
+1: Building a Survey Form to collect data from users. (Survey_Form_Val)
