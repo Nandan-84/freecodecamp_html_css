@@ -21,7 +21,9 @@ Project 3: Learning CSS Colors by Building a Set of Colored Markers.
 
 Project 4: Learning HTML Forms by Building a Regestration Form.
 
-Project 6: Learning CSS Box Model by Building a Rothko Painting. 
+Project 5: Learning CSS Box Model by Building a Rothko Painting. 
+
+Project 6: Learning CSS Flexbox by Building a Photo Gallery.
 
 CERTIFICATION PROJECTS INCLUDE;
 
